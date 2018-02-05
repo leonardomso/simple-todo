@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,400,700|Roboto:300,400,500");
+.close {
+  display: flex;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px; }
+  .close .close-item,
+  .close .minify-item,
+  .close .expand-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 500px;
+    margin-left: 7px; }
+
+.close-item {
+  background-color: red; }
+
+.minify-item {
+  background-color: yellow; }
+
+.expand-item {
+  background-color: green; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -17,21 +42,14 @@
     width: 740px;
     height: 500px;
     border-radius: 30px; }
-    .container .main-content .close {
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
-      background-color: green; }
     .container .main-content .search {
       grid-column: 2 / 3;
-      grid-row: 1 / 2;
-      background-color: yellow; }
+      grid-row: 1 / 2; }
     .container .main-content .topics {
       grid-column: 1 / 2;
-      grid-row: 2 / 3;
-      background-color: pink; }
+      grid-row: 2 / 3; }
     .container .main-content .tasks {
       grid-column: 2 / 3;
-      grid-row: 2 / 3;
-      background-color: blue; }
+      grid-row: 2 / 3; }
 
 /*# sourceMappingURL=main.css.map */

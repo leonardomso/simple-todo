@@ -1,0 +1,29 @@
+.close {
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+
+    .close-item,
+    .minify-item,
+    .expand-item {
+        width: 12px;
+        height: 12px;
+        border-radius: 500px;
+        margin-left: 7px;
+    }
+}
+
+.close-item {
+    background-color: red;
+}
+
+.minify-item {
+    background-color: yellow;
+}
+
+.expand-item {
+    background-color: green;
+}
