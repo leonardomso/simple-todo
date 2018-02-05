@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D90429;
+
+    .main-content {
+        display: grid;
+        background-color: white;
+        width: 740px;
+        height: 500px;
+        border-radius: 30px;
+    }
+}

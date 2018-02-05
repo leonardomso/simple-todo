@@ -1,0 +1,23 @@
+{
+  "name": "simple-todo",
+  "version": "1.0.0",
+  "description": "A simple todo made with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardomso/simple-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardomso/simple-todo/issues"
+  },
+  "homepage": "https://github.com/leonardomso/simple-todo#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
