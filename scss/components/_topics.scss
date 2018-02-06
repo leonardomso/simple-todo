@@ -1,0 +1,24 @@
+.topics {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    ul {
+        list-style: none;
+
+        li {
+            margin-top: 20px;
+        }
+    }
+
+    input {
+        border: none;
+        width: 86px;
+        margin-top: 20px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}

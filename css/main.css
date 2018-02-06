@@ -23,9 +23,26 @@
 .expand-item {
   background-color: green; }
 
+.topics {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column; }
+  .topics ul {
+    list-style: none; }
+    .topics ul li {
+      margin-top: 20px; }
+  .topics input {
+    border: none;
+    width: 86px;
+    margin-top: 20px; }
+    .topics input:focus {
+      box-shadow: none; }
+
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 .container {
   display: flex;
