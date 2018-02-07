@@ -1,0 +1,42 @@
+.tasks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    ul {
+        list-style: none;
+        margin-left: 20px;
+
+        .item {
+            margin-top: 20px;
+            margin-left: 20px;
+            @extend %roboto-light;
+
+            span {
+                margin-left: 34px;
+            }
+
+            .input-check {
+                appearance: none;
+        		position: absolute;
+        		z-index: 10;
+        		width: 20px;
+        		height: 20px;
+        		margin: 0;
+            }
+        }
+    }
+
+    input[type=text] {
+        border: none;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 18px;
+        color: $font-gray;
+
+        &::placeholder {
+            color: $low-gray;
+            text-align: center;
+        }
+    }
+}

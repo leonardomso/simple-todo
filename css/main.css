@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+.tasks ul .item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #1B1B1E; }
+
 .topics ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -72,6 +77,35 @@
     font-size: 18px;
     color: #1B1B1E; }
     .topics input[type=text]::placeholder {
+      color: #E0E0E0;
+      text-align: center; }
+
+.tasks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; }
+  .tasks ul {
+    list-style: none;
+    margin-left: 20px; }
+    .tasks ul .item {
+      margin-top: 20px;
+      margin-left: 20px; }
+      .tasks ul .item span {
+        margin-left: 34px; }
+      .tasks ul .item .input-check {
+        appearance: none;
+        position: absolute;
+        z-index: 10;
+        width: 20px;
+        height: 20px;
+        margin: 0; }
+  .tasks input[type=text] {
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1B1B1E; }
+    .tasks input[type=text]::placeholder {
       color: #E0E0E0;
       text-align: center; }
 
