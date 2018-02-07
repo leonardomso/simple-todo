@@ -1,43 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,400,700|Roboto:300,400,500");
-.close {
-  display: flex;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 15px; }
-  .close .close-item,
-  .close .minify-item,
-  .close .expand-item {
-    width: 12px;
-    height: 12px;
-    border-radius: 500px;
-    margin-left: 7px; }
-
-.close-item {
-  background-color: red; }
-
-.minify-item {
-  background-color: yellow; }
-
-.expand-item {
-  background-color: green; }
-
-.topics {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column; }
-  .topics ul {
-    list-style: none; }
-    .topics ul li {
-      margin-top: 20px; }
-  .topics input {
-    border: none;
-    width: 86px;
-    margin-top: 20px; }
-    .topics input:focus {
-      box-shadow: none; }
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+.topics ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #1B1B1E;
+  font-size: 20px; }
 
 * {
   margin: 0;
@@ -50,7 +16,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: #D90429; }
+  background-color: red; }
   .container .main-content {
     display: grid;
     grid-template-columns: 220px auto;
@@ -68,5 +34,45 @@
     .container .main-content .tasks {
       grid-column: 2 / 3;
       grid-row: 2 / 3; }
+
+.close {
+  display: flex;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px; }
+  .close .close-item,
+  .close .minify-item,
+  .close .expand-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 500px;
+    margin-left: 7px; }
+  .close .close-item {
+    background-color: #ff6059; }
+  .close .minify-item {
+    background-color: #ffc02f; }
+  .close .expand-item {
+    background-color: #28ca42; }
+
+.topics {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column; }
+  .topics ul {
+    list-style: none; }
+    .topics ul li {
+      margin-top: 20px; }
+  .topics input[type=text] {
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1B1B1E; }
+    .topics input[type=text]::placeholder {
+      color: #E0E0E0;
+      text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

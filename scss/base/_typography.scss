@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,400,700|Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
-$ff-lato: 'Lato', sans-serif;
-$ff-roboto: 'Roboto', sans-serif;
+$bg-red: #D90429;
+$close-red: #ff6059;
+$close-green: #28ca42;
+$close-yellow: #ffc02f;
+$font-gray: #1B1B1E;
+$low-gray: #E0E0E0;
 
-$main-red: #D90429;
-$first-red: #ff6059;
-$first-green: #28ca42;
-$first-yellow: #ffc02f;
+%roboto-light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: $font-gray;
+}
+
+%roboto-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: $font-gray;
+    font-size: 20px;
+}

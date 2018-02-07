@@ -10,4 +10,6 @@ form.addEventListener('submit', (event) => {
 
     li.textContent = value;
     todoList.appendChild(li);
+
+    form.value = '';
 });

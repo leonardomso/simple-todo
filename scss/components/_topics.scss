@@ -5,6 +5,7 @@
     flex-direction: column;
 
     ul {
+        @extend %roboto-regular;
         list-style: none;
 
         li {
@@ -12,13 +13,16 @@
         }
     }
 
-    input {
+    input[type=text] {
         border: none;
-        width: 86px;
+        width: 100%;
         margin-top: 20px;
+        font-size: 18px;
+        color: $font-gray;
 
-        &:focus {
-            box-shadow: none;
+        &::placeholder {
+            color: $low-gray;
+            text-align: center;
         }
     }
 }
