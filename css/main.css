@@ -75,15 +75,16 @@
     width: 100%;
     margin-top: 20px;
     font-size: 18px;
-    color: #1B1B1E; }
+    color: #1B1B1E;
+    outline: none;
+    text-indent: 20px; }
     .topics input[type=text]::placeholder {
       color: #E0E0E0;
       text-align: center; }
 
 .tasks {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start; }
+  flex-direction: column; }
   .tasks ul {
     list-style: none;
     margin-left: 20px; }
@@ -117,10 +118,12 @@
           color: #1B1B1E; }
   .tasks input[type=text] {
     border: none;
-    width: 100%;
+    width: 50%;
     margin-top: 20px;
     font-size: 18px;
-    color: #1B1B1E; }
+    color: #1B1B1E;
+    outline: none;
+    text-indent: 20px; }
     .tasks input[type=text]::placeholder {
       color: #E0E0E0;
       text-align: center; }
